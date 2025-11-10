@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#0D1117]">
+    <header class="fixed z-1 w-full bg-[#161B22]">
+        <div class="container mx-auto p-[20px] flex items-center py-7 justify-between">
+            <div class="flex items-center gap-3 text-white">
+                <a href="/index.html">
+                    <img class="w-[40px] h-[40px]" src="/assets/images/logo1.png" alt="header logo">
+                </a>
+                <input id="searchInput" class="bg-#0D1117 border-[#30363D] border-1 px-2 py-1 rounded-lg max-w-[172px] w-full" type="text" placeholder="Serach or jump to...">
+                <ul class="hidden lg:flex items-center gap-3 text-white">
+                    <li>Pull requests</li>
+                    <li>Issues</li>
+                    <li>Codespace</li>
+                    <li>Marketplace</li>
+                    <li>Explore</li>
+                </ul>
+            </div>
+            <div class="hidden md:flex items-center gap-3 text-white">
+                <img class="w-[18px] h-[18px]" src="/assets/images/ring.png" alt="">
+                <img class="w-[35px] h-[22px]" src="/assets/images/hdplus.png" alt="">
+                <img class="w-[35px] h-[25px]" src="/assets/images/gv.png" alt="profile">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container mx-auto py-[50px] px-[20px] pt-[120px] flex flex-col items-center">
+            <h1 class="text-[#C9D1D9] text-[31px] font-[600]">Users</h1>
+            <div class="users sm:grid grid-cols-2 lg:grid-cols-4 gap-3 mt-[20px]">
+                
+            </div>
+            <div id="pagination" class="flex items-center gap-4 mt-[20px]">
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container mx-auto px-[20px] py-9 flex items-center justify-center gap-3 border-t max-w-[900px] w-full border-[#21262D]">
+            <div class=" flex items-center gap-1">
+                <img class="w-[35px] h-[35px]" src="/assets/images/logo2.png" alt="footerLogoImage">
+                <p class="text-[#8B949E] text-[12px] font-[400]">© 2023 GitHub, Inc.</p>
+            </div>
+            <ul class="flex items-center gap-3">
+                <li class="text-[#58A6FF] text-[11px] font-[400]">Terms</li>
+                <li class="text-[#58A6FF] text-[11px] font-[400]">Privacy</li>
+                <li class="text-[#58A6FF] text-[11px] font-[400]">Security</li>
+                <li class="text-[#58A6FF] text-[11px] font-[400]">Status</li>
+                <li class="text-[#58A6FF] text-[11px] font-[400]">Docs</li>
+                <li class="text-[#58A6FF] text-[11px] font-[400]">Contact GitHub</li>
+                <li class="text-[#58A6FF] text-[11px] font-[400]">Pricing</li>
+                <li class="text-[#58A6FF] text-[11px] font-[400]">API</li>
+                <li class="text-[#58A6FF] text-[11px] font-[400]">Training</li>
+                <li class="text-[#58A6FF] text-[11px] font-[400]">Blog</li>
+                <li class="text-[#58A6FF] text-[11px] font-[400]">About</li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script defer src="/js/main.js"></script>
+</body>
+</html>
