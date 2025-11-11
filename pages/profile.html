@@ -7,8 +7,8 @@
     <script defer src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body class="bg-[#0D1117]">
-    <header class="fixed z-1 w-full bg-[#161B22]">
-        <div class="container mx-auto p-[20px] flex items-center py-7 justify-between">
+    <header class="fixed z-2 w-full bg-[#161B22]">
+        <div class="container mx-auto p-[20px] flex items-center py-5 justify-between">
             <div class="flex items-center gap-3 text-white">
                 <a href="/index.html">
                     <img class="w-[40px] h-[40px]" src="/assets/images/logo1.png" alt="header logo">
@@ -31,7 +31,59 @@
     </header>
     
     <main>
-        <div class="container mx-auto px-[20px] pt-[120px]"></div>
+        <section class="fixed z-1 w-full border-[#21262D] border-b bg-[#0D1117]">
+            <div class="container mx-auto px-[20px] pt-[100px] py-7 flex items-center gap-5 justify-center">
+                <div class="flex items-center gap-2 text-[#C9D1D9]">
+                    <img src="/assets/images/overview.png" alt="overviews">
+                    <p class="text-[13px] font-[400]">Overview</p>
+                </div>
+                <div class="flex items-center gap-2 text-[#C9D1D9]">
+                    <img src="/assets/images/repos.png" alt="Repositories">
+                    <p class="text-[13px] font-[400]">Repositories</p>
+                </div>
+                <div class="flex items-center gap-2 text-[#C9D1D9]">
+                    <img src="/assets/images/projects.png" alt="Projects">
+                    <p class="text-[13px] font-[400]">Projects</p>
+                </div>
+                <div class="flex items-center gap-2 text-[#C9D1D9]">
+                    <img src="/assets/images/packages.png" alt="Packages">
+                    <p class="text-[13px] font-[400]">Packages</p>
+                </div>
+                <div class="flex items-center gap-2 text-[#C9D1D9]">
+                    <img src="/assets/images/star.png" alt="Stars">
+                    <p class="text-[13px] font-[400]">Stars</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-[120px]">
+            <div class="userProfile container mx-auto px-[20px] flex gap-3">
+                <div class="max-w-[296px] w-full flex flex-col gap-3">
+                    <img src="/assets/images/logo1.png" class="max-w-[296px] w-full h-[296px] object-cover" alt="">
+                    <div class="flex flex-col">
+                        <h1 class="text-[23px] font-[600] text-[#C9D1D9]">name</h1>
+                        <p class="text-[18px] font-[300] text-[#8B949E]">login</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <img src="/assets/images/followers.png" alt="followers vs following">
+                        <p class="text-[14px] font-[400] text-[#8B949E]"><span class="font-[600] text-white"></span>  followers</p>
+                        <p class="text-[14px] font-[400] text-[#8B949E]"><span class="font-[600] text-white"></span> following</p>
+                    </div>
+                    <div class="flex items-center gap-1">
+                        <img src="/assets/images/location.png" alt="location">
+                        <p class="text-[#C9D1D9] text-[13px] font-[400]">location</p>
+                    </div>
+                    <div class="flex items-center gap-1 border-b-2 pb-3 border-[#21262D]">
+                        <img src="/assets/images/url.png" alt="url">
+                        <p class="text-[#C9D1D9] text-[13px] font-[400]">url</p>
+                    </div>
+                    <p class="text-[15px] font-[600] text-[#C9D1D9]">Organizations</p>
+                </div>
+                <div>
+    
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- <footer>
